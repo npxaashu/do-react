@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import About from "./components/About";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <h1>This is App.</h1>
 
-export default App
+      <About name={"Aashu"} />
+    </>
+  );
+};
+
+export default App;
