@@ -1,0 +1,16 @@
+import React from "react";
+
+
+const Home = () => {
+  console.log("Home rendering...");
+
+
+
+  return (
+    <>
+      <div>Home</div>
+    </>
+  );
+};
+
+export default Home;
